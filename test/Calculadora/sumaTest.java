@@ -19,12 +19,10 @@ public class sumaTest {
     //DEYSI PRISCILA lOPEZ JIMÉNEZ
     @Test
     public void testGetSuma() {
-        
-        System.out.println("getSuma");
-        suma calc = new suma();
-        int result = calc.getSuma(5,3);
-        int expected = 8;
-        assertEquals(expected, result);
+
+        System.out.println("Suma");
+        suma sum = new suma();
+        assertEquals(2, sum.getSuma(5, 3));
     }
     
 }

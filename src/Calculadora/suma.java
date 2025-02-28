@@ -12,7 +12,7 @@ package Calculadora;
 public class suma {
     
     
-    public int getSuma(int a, int b) {
+    public double getSuma(double a, double b) {
         return a + b;
     }
     

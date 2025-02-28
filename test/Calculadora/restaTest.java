@@ -4,26 +4,21 @@
  * and open the template in the editor.
  */
 package Calculadora;
+ 
+//import org.junit.Test;
+//import static org.junit.Assert.*;
 
+//import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
-
-/**
- *
- * @author Usuario
- */
 public class restaTest {
-    
-    public restaTest() {
-    }
-
     @Test
     public void testGetResta() {
-        System.out.println("getResta");
-        resta calc = new resta();
-        int result = calc.getResta(5,3);
-        int expected = 2;
-        assertEquals(expected, result);
+
+        System.out.println("Resta");
+        resta rest = new resta();
+        assertEquals(2, rest.getResta(5, 3));
     }
     
 }

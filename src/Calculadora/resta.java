@@ -10,7 +10,7 @@ package Calculadora;
  * @author Usuario
  */
 public class resta {
-    public int getResta(int a, int b) {
+    public double getResta(double a, double b) {
         return a - b;
     }
     
